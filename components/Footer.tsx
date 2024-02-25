@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="pt-4">
       <div className="flex flex-row space-x-4">
-        <Link href="https://www.linkedin.com/in/winston-tandi/">
+        <Link href="https://www.linkedin.com/in/winston-tandi/" target="_blank">
           <CIcon
             icon={icon.cibLinkedin}
             height={32}
@@ -15,7 +15,7 @@ export default function Footer() {
             className="fill-gray-700"
           />
         </Link>
-        <Link href="https://www.github.com/WinstonT">
+        <Link href="https://www.github.com/WinstonT" target="_blank">
           <CIcon
             icon={icon.cibGithub}
             height={32}
