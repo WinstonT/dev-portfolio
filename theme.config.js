@@ -16,4 +16,8 @@ export default {
       `}</style>
     </footer>
   ),
+  nextThemes: {
+    defaultTheme: "light",
+  },
+  darkMode: true,
 };
