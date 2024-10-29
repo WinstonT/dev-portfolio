@@ -1,37 +1,36 @@
+import Link from "next/link";
 import Navbar from "../components/Navbar";
+import CIcon from "@coreui/icons-react";
+import { cilDescription, cilCommentSquare } from "@coreui/icons";
 
-# Winston Tandi
+# About
 
 <Navbar />
 
-## Work
+### Hello
 
-### Whiz (YC W22)
+My name is **Winston Tandi**, welcome to my slightly fancier resume!
 
-**Software Engineer**
+I am a software engineer passionate about creating exciting products that can make a difference. I have previous experience working in fast-paced startups, where I led the development for multiple projects, as well as doing RnD at a large e-commerce company. When not typing code, I enjoy playing video games, drinking overpriced coffee and staring at cute dogs.
 
-- Oversaw end-to-end development of several key features of the Whiz app
-- Optimised various parts of the codebase, and improved CI/CD pipeline by adding code coverage tools
-- Communicated and worked closely with third-party vendor (BCA) to implement a disbursement system into Whiz app, as well as completed User Acceptance Testing
+Feel free to reach out to me :)
 
-Aug 2022 - Jul 2023
-
-### Blibli
-
-**Software Development Engineer in Test**
-
-- SDET Intern for Research and Development Backend Team
-- Researched new technologies and implemented them into demo projects for testing
-- Wrote unit and integration tests for several projects, and maintained over 90% code coverage
-
-Feb 2021 - Feb 2022
-
-### Coding Bee Academy
-
-**Educator**
-
-- Tutored students aged 12-16 in Python, HTML, CSS, JavaScript, and computer logic
-- Wrote Python guidebook to help students better understand concepts
-- Trained other educators in Python and HTML, CSS and JavaScript
-
-Jul 2019 - Mar 2020
+<div className="flex flex-row space-x-8">
+  <Link
+    href="https://drive.google.com/drive/folders/1ympwki-_2yxjLeFIgk1z46Qjggd6DVTH?usp=sharing"
+    target="_blank"
+    className="flex flex-row items-center"
+    style={{ textDecoration: "none" }}
+  >
+    <CIcon icon={cilDescription} height={16} width={16} />
+    <p className="pl-2">Resume</p>
+  </Link>
+  <Link
+    href="mailto:tandiw22@gmail.com"
+    className="flex flex-row items-center"
+    style={{ textDecoration: "none" }}
+  >
+    <CIcon icon={cilCommentSquare} height={16} width={16} />
+    <p className="pl-2">Contact</p>
+  </Link>
+</div>
